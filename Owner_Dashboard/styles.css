@@ -1,3 +1,4 @@
+
 *{box-sizing:border-box;margin:0;padding:0;}
 :root{
   --bg:#f4f2ee;--card:#fff;--text:#1a1410;--text2:#3a3028;--muted:#8a8278;
@@ -983,9 +984,9 @@ td{font-size:13.5px;padding:10px 10px;}
   .kpi-val{font-size:26px;}
   .kpi-card{flex-direction:row;align-items:center;}
 }
--e 
 
-/* ══ PROFILE MODAL ══ */
+
+
 .profile-overlay{position:fixed;inset:0;background:var(--ob);backdrop-filter:blur(4px);display:flex;align-items:center;justify-content:center;z-index:950;opacity:0;pointer-events:none;transition:.18s;}
 .profile-overlay.open{opacity:1;pointer-events:all;}
 .profile-modal{background:var(--card);border:1.5px solid var(--line);border-radius:16px;width:min(380px,94vw);box-shadow:var(--shadow-md);transform:scale(.95);transition:.18s;overflow:hidden;max-height:90vh;overflow-y:auto;}
@@ -1015,9 +1016,9 @@ td{font-size:13.5px;padding:10px 10px;}
 .pw-strength-fill{height:100%;border-radius:999px;transition:.3s;width:0;}
 .pw-strength-lbl{font-size:10.5px;font-weight:700;margin-top:3px;}
 @media(max-width:760px){.sidebar-export-btn .export-lbl{display:none;}}
--e 
 
-/* ══ ACTIVITY REMINDER ══ */
+
+
 /* ── Reminder box ── */
 .reminder-box{
   position:relative;

@@ -1,3 +1,4 @@
+
 /* ════════════════════════════════════════════
    CONSTANTS & DATA
 ════════════════════════════════════════════ */
@@ -2953,9 +2954,9 @@ renderStockAll();
 // Seed initial stock states — no beep on first load, only on changes after
 products.forEach(p=>{ _prevStockStatus[p.id] = stockStatus(p); });
 addAudit('Manager portal loaded','edit');
--e 
 
-/* ══ PROFILE MODAL ══ */
+
+
 let _selectedAvatar = '🧑‍💼';
 
 function selectAvatar(el){
@@ -3082,9 +3083,9 @@ document.getElementById('logoutOverlay').addEventListener('click',e=>{if(e.targe
 document.getElementById('profileOverlay').addEventListener('click',e=>{if(e.target===e.currentTarget)closeProfileModal();});
 // Init sidebar avatar
 document.getElementById('ownerAva').textContent = _selectedAvatar;
--e 
 
-/* ══ ACTIVITY REMINDER SYSTEM ══ */
+
+
 /* ══ ACTIVITY REMINDER SYSTEM ══ */
 let _reminderQueue   = [];
 let _reminderCurrent = null;
@@ -3307,4 +3308,3 @@ function removeDoneEntry(i){
 
 setInterval(_checkActivityReminders, 30000);
 setTimeout(_checkActivityReminders, 1500);
-</script>
